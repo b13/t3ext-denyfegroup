@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file>
+		<header>
+			<description>Language Labels for EXT:denyfegroup</description>
+			<authorEmail>typo3@b13.com</authorEmail>
+		</header>
+		<body>
+			<trans-unit id="fe_group_deny">
+				<source>Deny Usergroup Access</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
