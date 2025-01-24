@@ -29,21 +29,16 @@ $EM_CONF[$_EXTKEY] = array (
 	'modify_tables' => '',
 	'clearcacheonload' => 0,
 	'lockType' => '',
-	'constraints' => array(
-		'depends' => array(
-			'realurl' => '0.0.0-0.0.0',
-			'typo3' => '4.5.0-6.2.99',
-		),
-		'conflicts' => array(
-		),
-		'suggests' => array(
-		),
-	),
+	'constraints' => [
+		'depends' => [
+			'typo3' => '12.4.0-12.9.99',
+		],
+		'conflicts' => [],
+		'suggests' => [],
+	],
 	'author' => 'Benjamin Mack',
 	'author_email' => 'typo3@b13.de',
 	'author_company' => 'b:dreizehn GmbH',
 	'CGLcompliance' => NULL,
 	'CGLcompliance_note' => NULL,
-);
-
-?>
+];

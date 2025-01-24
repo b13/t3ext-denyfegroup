@@ -1,15 +1,7 @@
-#
-# Table structure for table 'pages'
-#
 CREATE TABLE pages (
-	fe_group_deny text NOT NULL
+	fe_group_deny varchar(255) default '0'
 );
 
-
-
-#
-# Table structure for table 'tt_content'
-#
 CREATE TABLE tt_content (
-	fe_group_deny text NOT NULL
+	fe_group_deny varchar(255) default '0'
 );
